@@ -1,0 +1,5 @@
+{
+  "name": "Kick Chat Quiz Master",
+  "description": "A real-time quiz app that connects to Kick chat and uses Google Sheets for questions.",
+  "requestFramePermissions": []
+}

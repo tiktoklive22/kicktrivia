@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Droid+Arabic+Kufi:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-arabic: "Droid Arabic Kufi", sans-serif;
+}
+
+@utility dir-rtl {
+  direction: rtl;
+}
+
+@utility scrollbar-hide {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
